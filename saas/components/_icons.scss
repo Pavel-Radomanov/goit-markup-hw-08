@@ -1,0 +1,28 @@
+.icon-form {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-form--position {
+    position: absolute;
+    top: -27px;
+    left: 15px;
+}
+
+.icon-checkbox {
+    display: inline-flex;
+
+    width: 16px;
+    height: 15px;
+    border: 2px solid rgba(33, 33, 33, 1);
+    border-radius: 4px;
+    margin-right: 8px;
+    padding-top: 4px;
+
+}
