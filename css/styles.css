@@ -54,24 +54,24 @@ overflow: hidden;
 
 
 /*Main*/
-.f-lab{
+/* .f-lab{
     display:flex;
     margin: 0;
     padding: 0;
     align-items: center;
     
-}
+} */
 
-.roof {
+/* .roof {
     background: var(--wh-color);
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-align: left; /*?*/
+    text-align: left;
     border-bottom: 1px solid #ECECEC;
-}
+} */
 
 /*.design-list {
     margin:0;
@@ -83,19 +83,20 @@ overflow: hidden;
     padding: 0;
     list-style-type: none;
 }*/
-.benefits__list {
+/* .benefits__list {
     display: flex;
     margin-left: 0;
-}
-.design-nav{
+} */
+/* .design-nav{
     display:flex;
     margin:0;
     padding-left:93px;
-    }
-.design-nav>.item-link:not(:last-child){margin-right: 50px;}
+    } */
+
+/* .design-nav>.item-link:not(:last-child){margin-right: 50px;}
 .item-link{
     position:relative;
-   }
+   } */
 .link-hi::after{
     content: "";
     width:100%;
@@ -190,9 +191,7 @@ align-items: center;
 
 
 }
-.site-nav {
-    display: flex;
-    }
+
 
 .icon-mail {
     margin-right: 10px;
@@ -1192,25 +1191,15 @@ transform: translateY(0);
     color:var(--wh-color);
     background-color: var(--b-color);
 }
-.hdr-main{
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: rgba(33, 33, 33, 1);
-    margin-bottom: 50px;
 
-}
-.clients-main{
+/* .clients-main{
     display: flex;
     padding: 0;
-    }
-.client-list{
+    gap: 30px;
+    } */
+/* .client-list{
     display:flex;
-    margin-right: 30px;
+    
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     align-items: center;
@@ -1245,4 +1234,4 @@ font-family: 'Roboto';
 }
 .client-list:hover{
     border: 1px solid var(--b-color);
-}
+} */

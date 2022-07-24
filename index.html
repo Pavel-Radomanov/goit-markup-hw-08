@@ -28,14 +28,23 @@
     />
   </head>
   <body class="body-fonts">
-    <!-- <header class="roof">
-      <div class="container f-lab">
+    <header class="roof">
+      <div class="container f-lab__footer ">
         <a lang="en" class="logo" href="./index.html"
           >Web<span class="studio-black">Studio</span>
         </a>
-
+        
         <nav class="site-nav">
-          <ul class="design-nav">
+          <button class="footer__button " data-menu-open type="button" aria-expanded="false" aria-controls="menu-container">
+            <svg width="40" height="40" aria-label="Меню контакты">
+              <use class="icon-cross" href="./images/icons.svg#icon-close-black"></use>
+              <use class="icon-menu" href="./images/icons.svg#icon-menu-burger"></use>
+            </svg>
+          </button>
+          <div class="footer__menu" id="menu-container" data-menu>
+Contacts
+          </div>
+          <ul class="footer__nav footer__nav--hide">
             <li class="current-link item-link list-reset">
               <a class="link-hi" href="index.html">Студия</a>
             </li>
@@ -47,7 +56,7 @@
             </li>
           </ul>
         </nav>
-        <div class="site-nav-right">
+        <div class="footer-right footer-right--hide">
           <ul class="f-lab">
             <li class="list-reset">
               <div>
@@ -72,9 +81,9 @@
           </ul>
         </div>
       </div>
-    </header> -->
-    <!-- <main> ?????-->
-      <!-- <section class="hero">
+    </header>
+    <main>
+      <section class="hero">
         <h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
         <button class="button hero__button" data-modal-open type="button">
           Заказать услугу
@@ -138,7 +147,7 @@
             </button>
           </div>
         </div>
-      </section> -->
+      </section>
       <section class="section-min">
         <div class="container">
           <h2 class="visually-hidden">Наши преимущества</h2>
@@ -205,7 +214,7 @@
         </div>
       </section>
 
-      <!-- <section class="section">
+      <section class="section">
         <div class="container services">
           <h2 class="section__header">Чем мы занимаемся</h2>
           <ul class="f-lab">
@@ -250,7 +259,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- <section class="section section-invert">
         <div class="container">
@@ -532,48 +541,48 @@
           </ul>
         </div>
       </section> -->
-      <!-- <section class="section">
+      <section class="section">
         <div class="container">
           <h2 class="section__header">Постоянные клиенты</h2>
 
-          <ul class="clients-main">
-            <li class="client-list">
-              <a class="client-link" href="" target="_blank">
+          <ul class="clients__main card-set">
+            <li class="clients__list list-reset card-set__item">
+              <a class="clients__link" href="" target="_blank">
                 <svg class="picture-client" width="106" height="60">
                   <use href="./images/icons.svg#icon-client1"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-list">
-              <a class="client-link" href="" target="_blank">
+            <li class="clients__list list-reset card-set__item">
+              <a class="clients__link" href="" target="_blank">
                 <svg class="picture-client" width="106" height="60">
                   <use href="./images/icons.svg#icon-client2"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-list">
-              <a class="client-link" href="" target="_blank">
+            <li class="clients__list list-reset card-set__item">
+              <a class="clients__link" href="" target="_blank">
                 <svg class="picture-client" width="106" height="60">
                   <use href="./images/icons.svg#icon-client3"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-list">
-              <a class="client-link" href="" target="_blank">
+            <li class="clients__list list-reset card-set__item">
+              <a class="clients__link" href="" target="_blank">
                 <svg class="picture-client" width="106" height="60">
                   <use href="./images/icons.svg#icon-client4"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-list">
-              <a class="client-link" href="" target="_blank">
+            <li class="clients__list list-reset card-set__item">
+              <a class="clients__link" href="" target="_blank">
                 <svg class="picture-client" width="106" height="60">
                   <use href="./images/icons.svg#icon-client5"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-list">
-              <a class="client-link" href="" target="_blank">
+            <li class="clients__list list-reset card-set__item">
+              <a class="clients__link" href="" target="_blank">
                 <svg class="picture-client" width="106" height="60">
                   <use href="./images/icons.svg#icon-client6"></use>
                 </svg>
@@ -581,7 +590,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 <!-- <footer class="footer">
       <div class="container">
@@ -693,5 +702,6 @@
       </div>
     </footer> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

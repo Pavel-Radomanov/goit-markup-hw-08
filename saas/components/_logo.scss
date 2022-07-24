@@ -6,8 +6,33 @@
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 24px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--b-color);
+
+    margin-top:16px;
+    margin-bottom:16px;
+
+ 
+
+@media screen and (min-width: 768px) {
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+@media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19; 
+    margin-top:25px;
+    margin-bottom:25px;
+}
+}
+
+.studio-black {
+    color: #000;
+}
+
+.studio-white {
+    color: var(--wh-color);
 }
