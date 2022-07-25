@@ -754,12 +754,12 @@ font-style: normal;
     background-color: #F5F4FA;
 }*/
     
-.section-staff{
+/* .section-staff{
     
     padding-top: 94px;
     padding-bottom: 94px;
     
-}
+} */
 .personal-hdr{
     display: block;
     
@@ -772,8 +772,7 @@ font-style: normal;
     display:flex;
     margin:0;
     padding: 0;
-    
-    
+        
 }
 .personal-item{
     display:block;

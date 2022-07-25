@@ -29,22 +29,60 @@
   </head>
   <body class="body-fonts">
     <header class="roof">
-      <div class="container f-lab__footer ">
+      <div class="container f-lab__header ">
         <a lang="en" class="logo" href="./index.html"
           >Web<span class="studio-black">Studio</span>
         </a>
         
         <nav class="site-nav">
-          <button class="footer__button " data-menu-open type="button" aria-expanded="false" aria-controls="menu-container">
+          <button class="mobile-menu-btn" data-menu-open type="button" >
             <svg width="40" height="40" aria-label="Меню контакты">
-              <use class="icon-cross" href="./images/icons.svg#icon-close-black"></use>
-              <use class="icon-menu" href="./images/icons.svg#icon-menu-burger"></use>
+              <use class="mobile-menu-close" href="./images/icons.svg#icon-close-black"></use>
+              <use class="mobile-menu-burger" href="./images/icons.svg#icon-menu-burger"></use>
             </svg>
           </button>
-          <div class="footer__menu" id="menu-container" data-menu>
+          <!-- <div class="header__menu" id="menu-container" data-menu>
 Contacts
+          </div> -->
+          <div class="mobile-menu" data-menu>
+            <ul class="mobile-menu-nav list-reset ">
+              <li class="mobile-menu-nav-item current-link">
+                <a class="link " href="">Студия </a>
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a class="link" href="">Портфолио</a>
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a class="link" href="">Контакты</a>
+              </li>
+            </ul>
+  
+            <ul class="mobile-menu-contacts  list-reset">
+              <li class="mobile-menu-contacts-item">
+                <a class="accent" href=""> +38 096 111 11 11 </a>
+              </li>
+              <li class="mobile-menu-contacts-item">
+                <a class="link" href="">info@devstudio.com</a>
+              </li>
+            </ul>
+  
+            <ul class="mobile-menu-socials list-reset">
+              <li class="mobile-menu-socials-item">
+                <a class="mobile-menu-socials-link" href=""> Instagram </a>
+              </li>
+              <li class="mobile-menu-socials-item">
+                <a class="mobile-menu-socials-link" href="">Twitter</a>
+              </li>
+              <li class="mobile-menu-socials-item">
+                <a class="mobile-menu-socials-link" href="">Facebook</a>
+              </li>
+              <li class="mobile-menu-socials-item">
+                <a class="mobile-menu-socials-link" href="">LinkedIn</a>
+              </li>
+            </ul>
           </div>
-          <ul class="footer__nav footer__nav--hide">
+
+          <ul class="header__nav header__nav--hide">
             <li class="current-link item-link list-reset">
               <a class="link-hi" href="index.html">Студия</a>
             </li>
@@ -56,7 +94,7 @@ Contacts
             </li>
           </ul>
         </nav>
-        <div class="footer-right footer-right--hide">
+        <div class="header-right header-right--hide">
           <ul class="f-lab">
             <li class="list-reset">
               <div>
@@ -217,8 +255,8 @@ Contacts
       <section class="section">
         <div class="container services">
           <h2 class="section__header">Чем мы занимаемся</h2>
-          <ul class="f-lab">
-            <li class="wert services__grid list-reset">
+          <ul class="f-lab services__card-set">
+            <li class="wert services__grid list-reset card-set-item">
               <a href=""
                 ><img
                   class="services__img"
@@ -231,7 +269,7 @@ Contacts
                 <p class="services__text">Десктопные приложения</p>
               </div>
             </li>
-            <li class="wert services__grid list-reset">
+            <li class="wert services__grid list-reset card-set-item">
               <a href=""
                 ><img
                   class="services__img"
@@ -244,7 +282,7 @@ Contacts
                 <p class="services__text">Мобильные приложения</p>
               </div>
             </li>
-            <li class="wert services__grid list-reset">
+            <li class="wert services__grid list-reset card-set-item">
               <a href=""
                 ><img
                   class="services__img"

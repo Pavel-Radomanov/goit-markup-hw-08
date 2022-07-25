@@ -1,14 +1,30 @@
 .section {
     margin:0;
+    padding-bottom: 30px;
+    padding-top: 30px; 
+
+    
+// @media screen and (min-width: 480px) {
+//     padding-bottom: 30px;
+//     padding-top: 30px;  
+// }
+
+@media screen and (min-width: 768px) {
     padding-bottom: 94px;
     padding-top: 94px;
 }
 
+}
+
 .section-min {
     margin:0;
-    padding-top: 94px;
     padding-bottom: 0;
 }
+
+// .section--distance{
+//     padding-top: 94px;
+// }
+
 .section__header {
 
     padding-top: 0;
