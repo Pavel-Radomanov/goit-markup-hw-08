@@ -98,25 +98,7 @@
         border-color: var(--b-color);
     }
 }
-/*.form__input:hover+.icon-form {
-    fill: var(--b-color);
-}
 
-.form__input:hover {
-    cursor: pointer;
-    border-color: var(--b-color);
-}
-
-
-.form__input:focus-within+.icon-form {
-    fill: var(--b-color);
-}
-
-.form__input:focus {
-    background-color: transparent;
-    outline: none;
-    border-color: var(--b-color);
-}*/
 
 .form__input-comment {
     width: 448px;
@@ -161,39 +143,6 @@
 
 }
 
-
-/*
-
-.form__checkbox {
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-
-    text-transform: none;
-    letter-spacing: 0.03em;
-
-    color: var(--gr-color);
-}
-
-.form__checkbox--input {
-    display: inline-block;
-}
-
-.form__checkbox--input:checked+.icon-checkbox {
-    border-color: rgba(24, 140, 232, 1);
-    background-color: rgba(24, 140, 232, 1);
-    background-image: url("../images/fly.svg");
-    background-size: contain;
-    background-origin: border-box;
-
-}*/ 
-
 .form__link-agreement {
     color: var(--b-color);
 }
@@ -226,6 +175,16 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*.form__clsbtn:hover .form--close-action {
-    fill: var(--b-color);
-}*/
+.form__checkbox--input:checked + .icon-checkbox{
+    border-color: rgba(24, 140, 232, 1);
+    background-color: rgba(24, 140, 232, 1);
+    background-image: url("../images/fly.svg");
+    background-size: contain;
+    background-origin: border-box;
+    
+}
+
+.form__input:hover+.icon-form{
+    fill:var(--b-color);   
+}
+

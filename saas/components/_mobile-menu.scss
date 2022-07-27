@@ -26,17 +26,13 @@
 .mobile-menu-close {
 	opacity: 0;
 	transition: 500ms;
+	
+
 
 	.mobile-menu-btn.is-open & {
 		opacity: 1;
 	}
 }
-
-/**
-  |============================
-  | Mobile menu styles
-  |============================
-*/
 
 .mobile-menu {
 	position: fixed;
@@ -78,6 +74,11 @@
 		display: none;
 	}
 }
+
+.site-nav-mail,.site-nav-tel{
+@media screen and (max-width: 767px) {
+	display:none;
+}}
 
 .mobile-menu-nav {
    

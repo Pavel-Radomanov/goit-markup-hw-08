@@ -41,9 +41,7 @@
               <use class="mobile-menu-burger" href="./images/icons.svg#icon-menu-burger"></use>
             </svg>
           </button>
-          <!-- <div class="header__menu" id="menu-container" data-menu>
-Contacts
-          </div> -->
+        
           <div class="mobile-menu" data-menu>
             <ul class="mobile-menu-nav list-reset ">
               <li class="mobile-menu-nav-item current-link">
@@ -94,8 +92,8 @@ Contacts
             </li>
           </ul>
         </nav>
-        <div class="header-right header-right--hide">
-          <ul class="f-lab">
+        <div class=" header-right--hide">
+          <ul class="header-right header-right__tab">
             <li class="list-reset">
               <div>
                 <a class="site-nav-mail f-lab" href="mailto:info@devstudio.com">
@@ -177,7 +175,7 @@ Contacts
             <button class="button" type="submit">Отправить</button>
           </div>
         
-        </form>          
+        </form>                    
         <button class="form__clsbtn" data-modal-close type="button">
               <svg class="form--close-action" width="18" height="18">
                 <use href="./images/icons.svg#icon-close-black"></use>
@@ -255,8 +253,8 @@ Contacts
       <section class="section">
         <div class="container services">
           <h2 class="section__header">Чем мы занимаемся</h2>
-          <ul class="f-lab services__card-set">
-            <li class="wert services__grid list-reset card-set-item">
+          <ul class="f-lab services__card-set card-set">
+            <li class="wert list-reset card-set-item">
               <a href=""
                 ><img
                   class="services__img"
@@ -299,11 +297,11 @@ Contacts
         </div>
       </section>
 
-      <!-- <section class="section section-invert">
+      <section class="section section-invert">
         <div class="container">
           <h2 class="section__header personal-hdr">Наша команда</h2>
-          <ul class="work3 position personal">
-            <li class="personal-item list-reset">
+          <ul class="work3 position personal staff__list card-set">
+            <li class="personal-item list-reset card-set__item">
               <img
                 class="personal-img"
                 src="./images/product-designer-stuff.jpg"
@@ -372,7 +370,7 @@ Contacts
               </div>
             </li>
 
-            <li class="personal-item">
+            <li class="personal-item card-set__item">
               <img
                 class="personal-img"
                 src="./images/frontend-developer-stuff.jpg"
@@ -440,7 +438,7 @@ Contacts
                 </ul>
               </div>
             </li>
-            <li class="personal-item">
+            <li class="personal-item card-set__item">
               <img
                 class="personal-img"
                 src="./images/marketing-stuff.jpg"
@@ -508,7 +506,7 @@ Contacts
                 </ul>
               </div>
             </li>
-            <li class="personal-item">
+            <li class="personal-item card-set__item">
               <img
                 class="personal-img"
                 src="./images/ui-designer-stuff.jpg"
@@ -578,7 +576,7 @@ Contacts
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <section class="section">
         <div class="container">
           <h2 class="section__header">Постоянные клиенты</h2>
@@ -630,81 +628,82 @@ Contacts
         </div>
       </section>
     </main>
-<!-- <footer class="footer">
-      <div class="container">
-        <ul class="footer-line">
-          <li class="list-reset">
+<footer class="footer">
+      <div class="container ">
+        <ul class="footer-line footer-mobile">
+          <li class="list-reset ">
             <div class="footer-left">
-              <div class="logo-f" lang="en">
+              <div class="logo-f logo-f__position" lang="en">
                 <a class="logo" href="./index.html"
                   >Web<span class="studio-white">Studio</span></a
                 >
               </div>
-              <div class="adress-link">
-                <address>
+              <div class="footer__adress-link">
+                <address >
                   <a href="" target="_blank" rel="noopener noreferrer"
                     >г. Киев, пр-т Леси Украинки, 26</a
                   >
                 </address>
-                <div class="email-tel">
+                <div class="footer__email-tel">
                   <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                  <br>
                   <a href="tel:+380961111111">+38 096 111 11 11</a>
                 </div>
               </div>
             </div>
           </li>
-          <li class="list-reset">
+          <li class="list-reset ">
             <div class="footer-right">
-              <p class="common">Присоединяйтесь</p>
+              <p class="footer__common">Присоединяйтесь</p>
               <ul class="social-webs">
                 <li class="social-link list-reset">
                   <a
-                    class="links-sf"
+                    class="footer__social-links"
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="instagram"
                   >
-                    <svg class="pic-f" width="20" height="20">
+                    <svg class="footer__icons--white" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="list-reset">
                   <a
-                    class="links-sf"
+                    class="footer__social-links"
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="twitter"
                   >
-                    <svg class="pic-f" width="20" height="20">
+                    <svg class="footer__icons--white" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="list-reset">
                   <a
-                    class="links-sf"
+                    class="footer__social-links"
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="facebook"
                   >
-                    <svg class="pic-f" width="20" height="20">
+                    <svg class="footer__icons--white" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="list-reset">
                   <a
-                    class="links-sf"
+                    class="footer__social-links"
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="linkedin"
                   >
-                    <svg class="pic-f" width="20" height="20">
+                    <svg class="footer__icons--white" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -713,10 +712,10 @@ Contacts
             </div>
           </li>
           <li class="list-reset">
-            <div class="footer-subscription">
-              <p class="common">Подпишитесь на рассылку</p>
+            <div class="footer-subscription ">
+              <p class="footer__common">Подпишитесь на рассылку</p>
               <form class="form-subscription">
-                <div  class="footer-right-end">
+                <div  class="footer-right-end footer-mobile">
                 <label>
                   <input
                     class="window-mail"
@@ -725,20 +724,20 @@ Contacts
                     placeholder="E-mail"
                   />
                 </label>
-                <div class="check">
+              <div class="check">
                 <button class="button footer__button" type="submit"><span class="checker">Подписаться</span></button>
                 <svg class="icon-flyer" width="24" height="24">
                   <use href="./images/icons.svg#icon-icon-send"></use>
-                  </svg>
-                </div>
+                </svg>
+              </div>
                 
-                </div>
+              </div>
               </form>
             </div>
           </li>
         </ul>
       </div>
-    </footer> -->
+    </footer>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
   </body>
