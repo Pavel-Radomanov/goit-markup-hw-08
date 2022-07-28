@@ -984,29 +984,37 @@ font-style: normal;
 } */ */
 /*Portfolio*/
 /*Filters*/
-.section-portfolio{
-    display: block;
+/* .section-portfolio{
+    display: flex;
     
     padding-bottom: 94px;
     margin: 0;
-}
-.filters-position{
+
+} */
+/* .filters-position{
     display:flex;
-    justify-content:center;
+    justify-content: center;
     margin:0;
     padding:0;
     margin-bottom: 50px;
+
+    @media screen and (max-width: 767px) {
+        flex-wrap: wrap;
+        justify-content:flex-start;
+      }
+
     
-}
-.filters-position:last-child{
+ 
+} */
+/* .filters-position:last-child{
     margin-right:0;
-}
-.btn-dist{
+} */
+/* .btn-dist{
     margin-right: 8px;
     margin-bottom: 0px;
     padding:6px 22px;
-}
-.btn-filters button {
+} */
+/* .btn-filters button {
     color: #212121;
     font-family: 'Roboto';
     font-style: normal;
@@ -1029,10 +1037,10 @@ font-style: normal;
     background-color: var(--b-color);
     color: var(--wh-color);
     cursor: pointer;
-}
+} */
 
 
-.portfolio-f-set{
+/* .portfolio-f-set{
     --indent: 30px;
     padding: 0;
     margin: 0;
@@ -1041,7 +1049,7 @@ font-style: normal;
     flex-wrap: wrap;
     
     margin-left: calc(-1 * var(--indent));
-margin-top: calc(-1 * var(--indent));}
+    margin-top: calc(-1 * var(--indent));}
 
 .portfolio-main .portfolio-f-item {
     margin-left: var(--indent);
@@ -1050,6 +1058,7 @@ margin-top: calc(-1 * var(--indent));}
 }
 
 .portfolio-main h3 {
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -1145,13 +1154,11 @@ color:var(--wh-color);
 }
 .portfolio-f-item:hover .overlay{
 transform: translateY(0);
-}
+} */
 
-.card-personal{
-    margin-top: 30 px;
-}
 
-.social-link{
+
+/* .social-link{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -1186,7 +1193,7 @@ transform: translateY(0);
 .links-s:hover,.links-s:focus {
     color:var(--wh-color);
     background-color: var(--b-color);
-}
+} */
 
 /* .clients-main{
     display: flex;

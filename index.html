@@ -33,22 +33,22 @@
         <a lang="en" class="logo" href="./index.html"
           >Web<span class="studio-black">Studio</span>
         </a>
-        
+        <button class="mobile-menu-btn" data-menu-button type="button" >
+          <svg width="40" height="40" aria-label="Меню контакты">
+            <use class="mobile-menu-close" href="./images/icons.svg#icon-close-black"></use>
+            <use class="mobile-menu-burger" href="./images/icons.svg#icon-menu-burger"></use>
+          </svg>
+        </button>
         <nav class="site-nav">
-          <button class="mobile-menu-btn" data-menu-open type="button" >
-            <svg width="40" height="40" aria-label="Меню контакты">
-              <use class="mobile-menu-close" href="./images/icons.svg#icon-close-black"></use>
-              <use class="mobile-menu-burger" href="./images/icons.svg#icon-menu-burger"></use>
-            </svg>
-          </button>
+          
         
           <div class="mobile-menu" data-menu>
             <ul class="mobile-menu-nav list-reset ">
               <li class="mobile-menu-nav-item current-link">
-                <a class="link " href="">Студия </a>
+                <a class="link " href="index.html">Студия </a>
               </li>
               <li class="mobile-menu-nav-item">
-                <a class="link" href="">Портфолио</a>
+                <a class="link" href="./portfolio.html">Портфолио</a>
               </li>
               <li class="mobile-menu-nav-item">
                 <a class="link" href="">Контакты</a>
@@ -255,40 +255,91 @@
           <h2 class="section__header">Чем мы занимаемся</h2>
           <ul class="f-lab services__card-set card-set">
             <li class="wert list-reset card-set-item">
-              <a href=""
-                ><img
+              <a href="" >
+                <picture services__img>
+                  
+								<source
+                media="(min-width: 1200px)"
+                srcset="../images/services/desktop-lg_result.webp 1x, ../images/services/desktop-lg@2x_result.webp 2x"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/services/desktop-lg.jpg 1x, ./images/services/desktop-lg@2x.jpg 2x"
+                type="image/jpg"
+              />
+
+
+                  <img
                   class="services__img"
                   src="./images/algoritm-table.jpg"
                   alt="Работа алгоритм"
                   width="370"
                   height="294"
-              /></a>
+              />
+                </picture>
+                </a>
               <div class="services__item">
                 <p class="services__text">Десктопные приложения</p>
               </div>
             </li>
             <li class="wert services__grid list-reset card-set-item">
               <a href=""
-                ><img
-                  class="services__img"
-                  src="./images/mobile-design.jpg"
-                  alt="Мобильные приложения"
-                  width="370"
-                  height="294"
-              /></a>
+                >
+                <picture services__img>
+                  
+                  <source
+                  media="(min-width: 1200px)"
+                  srcset="../images/services/mobile-lg_result.webp 1x, ../images/services/mobile-lg@2x_result.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/services/mobile-lg.jpg 1x, ./images/services/mobile-lg@2x.jpg 2x"
+                  type="image/jpg"
+                />
+  
+  
+                <img
+                class="services__img"
+                src="./images/mobile-design.jpg"
+                alt="Мобильные приложения"
+                width="370"
+                height="294"/>
+
+                  </picture>
+                
+                </a>
               <div class="services__item">
                 <p class="services__text">Мобильные приложения</p>
               </div>
             </li>
             <li class="wert services__grid list-reset card-set-item">
               <a href=""
-                ><img
+                >
+                <picture services__img>
+                  
+                  <source
+                  media="(min-width: 1200px)"
+                  srcset="../images/services/design-lg_result.webp 1x, ../images/services/mobile-lg@2x_result.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/services/design-lg.jpg 1x, ./images/services/design-lg@2x.jpg 2x"
+                  type="image/jpg"
+                />
+  
+  
+                <img
                   class="services__img"
                   src="./images/design-color.jpg"
                   alt="Дизайн"
                   width="370"
-                  height="294"
-              /></a>
+                  height="294"/>
+                
+                  </picture>
+                </a>
               <div class="services__item">
                 <p class="services__text">Дизайнерские решения</p>
               </div>
@@ -302,13 +353,52 @@
           <h2 class="section__header personal-hdr">Наша команда</h2>
           <ul class="work3 position personal staff__list card-set">
             <li class="personal-item list-reset card-set__item">
-              <img
+              
+              <picture>
+                
+                <source
+                    media="(min-width: 1200px)"
+                    srcset="../images/staff/card1-lg_result.webp 1x, ../images/team/card1-lg@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(min-width: 1200px)"
+                    srcset="../images/staff/card1-lg.jpg 1x, ../images/staff/card1-lg@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                
+                <source
+                    media="(min-width: 768px)"
+                    srcset="../images/staff/card1-md_result.webp 1x, ../images/staff/card1-md@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(min-width: 768px)"
+                    srcset="../images/staff/card1-md.jpg 1x, ../images/staff/card1-md@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                
+                <source
+                    media="(max-width: 767px)"
+                    srcset="../images/staff/card1-sm_result.webp 1x, ../images/staff/card1-sm@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(max-width: 767px)"
+                    srcset="../images/staff/card1-sm.jpg 1x, ../images/staff/card1-sm@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                <img
                 class="personal-img"
                 src="./images/product-designer-stuff.jpg"
                 alt="Фото дизайнера"
-                width="270"
-                height="260"
+                width="auto"
+                height="auto"
               />
+            </picture>
+              
+              
+            
               <div class="advice">
                 <h3 class="personal-name">Игорь Демьяненко</h3>
                 <p class="personal-position" lang="en">Product Designer</p>
@@ -371,13 +461,51 @@
             </li>
 
             <li class="personal-item card-set__item">
-              <img
+
+              <picture>
+                
+                <source
+                    media="(min-width: 1200px)"
+                    srcset="../images/staff/card2-lg_result.webp 1x, ../images/team/card2-lg@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(min-width: 1200px)"
+                    srcset="../images/staff/card2-lg.jpg 1x, ../images/staff/card2-lg@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                
+                <source
+                    media="(min-width: 768px)"
+                    srcset="../images/staff/card2-md_result.webp 1x, ../images/staff/card2-md@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(min-width: 768px)"
+                    srcset="../images/staff/card2-md.jpg 1x, ../images/staff/card2-md@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                
+                <source
+                    media="(max-width: 767px)"
+                    srcset="../images/staff/card2-sm_result.webp 1x, ../images/staff/card2-sm@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(max-width: 767px)"
+                    srcset="../images/staff/card2-sm.jpg 1x, ../images/staff/card2-sm@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                <img
                 class="personal-img"
                 src="./images/frontend-developer-stuff.jpg"
                 alt="Фото разработчика"
-                width="270"
-                height="260"
+                width="auto"
+                height="auto"
               />
+              
+            </picture>
+              
               <div class="advice">
                 <h3 class="personal-name">Ольга Репина</h3>
                 <p class="personal-position" lang="en">Frontend Developer</p>
@@ -439,13 +567,51 @@
               </div>
             </li>
             <li class="personal-item card-set__item">
-              <img
+              <picture>
+                
+                <source
+                    media="(min-width: 1200px)"
+                    srcset="../images/staff/card3-lg_result.webp 1x, ../images/team/card3-lg@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(min-width: 1200px)"
+                    srcset="../images/staff/card3-lg.jpg 1x, ../images/staff/card3-lg@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                
+                <source
+                    media="(min-width: 768px)"
+                    srcset="../images/staff/card3-md_result.webp 1x, ../images/staff/card3-md@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(min-width: 768px)"
+                    srcset="../images/staff/card3-md.jpg 1x, ../images/staff/card3-md@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                
+                <source
+                    media="(max-width: 767px)"
+                    srcset="../images/staff/card3-sm_result.webp 1x, ../images/staff/card3-sm@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(max-width: 767px)"
+                    srcset="../images/staff/card3-sm.jpg 1x, ../images/staff/card3-sm@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                <img
                 class="personal-img"
                 src="./images/marketing-stuff.jpg"
                 alt="Фото сотрудника"
-                width="270"
-                height="260"
+                width="auto"
+                height="auto"
               />
+              
+            </picture>
+              
+             
               <div class="advice">
                 <h3 class="personal-name">Николай Тарасов</h3>
                 <p class="personal-position" lang="en">Marketing</p>
@@ -507,13 +673,51 @@
               </div>
             </li>
             <li class="personal-item card-set__item">
-              <img
+              <picture>
+                
+                <source
+                    media="(min-width: 1200px)"
+                    srcset="../images/staff/card4-lg_result.webp 1x, ../images/team/card4-lg@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(min-width: 1200px)"
+                    srcset="../images/staff/card4-lg.jpg 1x, ../images/staff/card4-lg@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                
+                <source
+                    media="(min-width: 768px)"
+                    srcset="../images/staff/card4-md_result.webp 1x, ../images/staff/card4-md@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(min-width: 768px)"
+                    srcset="../images/staff/card4-md.jpg 1x, ../images/staff/card4-md@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                
+                <source
+                    media="(max-width: 767px)"
+                    srcset="../images/staff/card4-sm_result.webp 1x, ../images/staff/card4-sm@2x_result.webp 2x"
+                    type="image/webp"
+                />
+                <source
+                    media="(max-width: 767px)"
+                    srcset="../images/staff/card4-sm.jpg 1x, ../images/staff/card4-sm@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                <img
                 class="personal-img"
                 src="./images/ui-designer-stuff.jpg"
                 alt="Фото дизайнера"
-                width="270"
-                height="260"
+                width="auto"
+                height="auto"
               />
+              
+            </picture>
+              
+             
               <div class="advice">
                 <h3 class="personal-name">Михаил Ермаков</h3>
                 <p class="personal-position" lang="en">UI Designer</p>
