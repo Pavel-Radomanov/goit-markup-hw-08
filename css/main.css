@@ -1521,6 +1521,15 @@ ul {
     display: none;
   }
 }
+.mobile-menu-btn:hover, .mobile-menu-btn:focus {
+  fill: var(--b-color);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .mobile-menu-burger {
   -webkit-transition-duration: 250ms;
