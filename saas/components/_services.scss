@@ -1,6 +1,9 @@
 .services {
     
-    
+//     @media screen and (max-width: 1199px) {
+        
+//         padding:0; 
+//   }  
 
 @media screen and (max-width: 1199px) {
        display:none; 
@@ -60,4 +63,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+}
+
+.section--hidden{
+    @media screen and (max-width: 1199px) {
+        
+        padding:0; 
+  }  
 }

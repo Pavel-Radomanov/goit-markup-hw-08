@@ -16,13 +16,17 @@
 }
 
 .icon-checkbox {
-    display: inline-flex;
+    display:inline-flex;
 
     width: 16px;
     height: 15px;
     border: 2px solid rgba(33, 33, 33, 1);
     border-radius: 4px;
-    margin-right: 8px;
+    margin-right: 3px;
     padding-top: 4px;
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 8px;
+    }
 
 }
