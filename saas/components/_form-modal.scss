@@ -227,6 +227,7 @@
     background-origin: border-box;
     
 }
+
 .form__checkbox {
     display: flex;
     align-items: center;
@@ -253,3 +254,13 @@ color: #757575;
     fill:var(--b-color);   
 }
 
+// #chekbox {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+.policy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

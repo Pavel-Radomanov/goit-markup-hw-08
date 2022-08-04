@@ -167,10 +167,18 @@ ul {
   letter-spacing: 0.03em;
   color: #212121;
 }
+@media screen and (max-width: 1119px) {
+  .section__header {
+    font-size: 28px;
+    line-height: 1.18;
+    margin-bottom: 30px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .section__header {
     font-size: 36px;
     line-height: 1.16;
+    margin-bottom: 50px;
   }
 }
 
@@ -189,7 +197,7 @@ ul {
   color: var(--b-color);
   margin-top: 16px;
   margin-bottom: 16px;
-  margin-left: 15px;
+  margin-left: 0px;
 }
 @media screen and (min-width: 768px) {
   .logo {
@@ -384,7 +392,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .forms__button:hover, .forms__button:focus {
   cursor: pointer;
@@ -731,6 +739,18 @@ ul {
   fill: var(--b-color);
 }
 
+.policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .icon-form {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -805,6 +825,11 @@ ul {
   color: #212121;
   text-align: left;
 }
+@media screen and (max-width: 480px) {
+  .benefits__header {
+    text-align: center;
+  }
+}
 
 .benefits__content p {
   font-family: "Roboto";
@@ -854,6 +879,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
   left: 0;
   bottom: 0;
   -webkit-box-align: center;
@@ -901,6 +927,12 @@ ul {
   .section--hidden {
     padding: 0;
   }
+}
+
+.wert {
+  display: block;
+  z-index: -1;
+  position: relative;
 }
 
 .clients__main {
@@ -1097,6 +1129,9 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer-left {
@@ -1141,6 +1176,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   gap: 8px;
+  margin-bottom: 9px;
 }
 
 .footer__email-tel a {
@@ -1315,7 +1351,6 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-align: left; /*?*/
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -1388,12 +1423,22 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .f-lab__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 @media screen and (min-width: 768), (max-width: 1199px) {
   .header-right__tab {
@@ -1710,7 +1755,6 @@ ul {
 
 .personal-hdr {
   display: block;
-  margin-bottom: 50px;
   min-width: 264px;
   margin-left: auto;
   margin-right: auto;

@@ -35,6 +35,11 @@
     text-transform: uppercase;
     color:#212121;
     text-align: left;
+
+    @media screen and (max-width: 480px) {
+        text-align: center; 
+    }
+
 }
 .benefits__content p {
 
@@ -48,6 +53,8 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--gr-color);
+
+
 }
 .benefits__block {
     margin: 0;

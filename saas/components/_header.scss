@@ -7,7 +7,7 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-align: left; /*?*/
+    // text-align: left;
     border-bottom: 1px solid #ECECEC;
     
 }
@@ -76,9 +76,14 @@
 //     }
 .f-lab__header{
     display:flex;
-    justify-content: space-between;
-    align-items:center ;
+    align-items:center ; 
+    // padding:15px;
     
+    @media screen and (min-width: 768px) {
+        display:flex;
+        justify-content: space-between;
+        align-items:center ; 
+    }
     
     @media screen and (min-width: 1200px) {
         // gap: 150px;   
